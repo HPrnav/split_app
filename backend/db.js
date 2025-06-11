@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const mongourl=`mongodb+srv://darshanjadhav775:vM4qjJPfZdvKCW5x@cluster0.5wxychs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+const mongourl=`mongodb+srv://pranavhore1455:Pranav2003@cluster0.jgvyr0h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 // Connect to MongoDB
 mongoose.connect(process.env.temp_db||mongourl, {
   useNewUrlParser: true,
